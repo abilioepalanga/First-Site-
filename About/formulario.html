@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h1>Formulário</h1>
     <form>
         <label for="C_nome">Nome:</label>
-       <input class="css_texto" id="C_nome" type="text" placeholder="Digite o seu nome"  required> 
-       <br>
-       <label for="C_idade">Idade</label> 
-       <input id="C_idade" placeholder="Digite sua idade"> <br>
-       <label for="C_Sexo" aria-placeholder="Marque sua idade" >Sexo</label>
-       <input type="text"  placeholder="Digite o sexo" required>
-       <br>
-       <label> Senha</label>
-       <input type="password" placeholder="Digite a senha" required><br>
-       <label> Email</label> 
-       <input type="email" placeholder="Digite o email" required>
-       <br>
-       
-       <input type="submit" value="Submeter">
-       <h4>Seleciona o animal</h4>
-       <input type="radio" name="animal"> <label>Dog</label><br>
-       <input type="radio" name="animal"> <label>Cat</label>
+        <input id="C_nome" type="text" placeholder="Digite o seu nome" required>
+        <br>
+        <label for="C_idade">Idade</label>
+        <input id="C_idade" placeholder="Digite sua idade"> <br>
+        <label for="C_Sexo" aria-placeholder="Marque sua idade">Sexo</label>
+        <input class="css_texto" type="text" placeholder="Digite o sexo" required>
+        <br>
+        <label> Senha</label>
+        <input type="password" placeholder="Digite a senha" required><br>
+        <label> Email</label>
+        <input type="email" placeholder="Digite o email" required>
+        <br>
 
-       <h4> Selecionar quais opções deseja</h4>
-       <input type="checkbox" name="check"> <label>Vermelho</label><br>
-       <input type="checkbox" name="check"> <label>Branco</label> <br>
+        <input type="submit" value="Submeter">
+        <h4>Seleciona o animal</h4>
+        <input type="radio" name="animal"> <label>Dog</label><br>
+        <input type="radio" name="animal"> <label>Cat</label>
 
-       <h4> Escolha um peixe</h4> 
-       <select name="peixe" id="px">
-        <option disabled selected value="">Selecciona uma cor</option>
+        <h4> Selecionar quais opções deseja</h4>
+        <input type="checkbox" name="check"> <label>Vermelho</label><br>
+        <input type="checkbox" name="check"> <label>Branco</label> <br>
+
+        <h4> Escolha um peixe</h4>
+        <select name="peixe" id="px">
+            <option disabled selected value="">Selecciona uma cor</option>
             <option id="px" value="Carapau">CP</option>
             <option id="px" value="Caxuxo">CX</option>
 
-       </select>
-       <br><br>
-       <h4>Digite a sua mensagem</h4>
-       <textarea placeholder="Escreva uma mensagem" name="" id="" cols="30" rows="10"></textarea>
-       <br><br>
+        </select>
+        <br><br>
+        <h4>Digite a sua mensagem</h4>
+        <textarea placeholder="Escreva uma mensagem" name="" id="" cols="30" rows="10"></textarea>
+        <br><br>
 
     </form>
     <a href="../index.html">Voltar para a principal</a> <br><br>
     <button>Botão</button>
 </body>
+
 </html>
